@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 37px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Cagliostro", sans-serif;
+    animation: textAnimation 1.5s infinite alternate;
+}
+
+body {
+    background: linear-gradient(270deg, #007fff, #1e90ff, #00bfff, #87ceeb, whitesmoke);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 23s ease infinite;
+    -moz-animation: AnimationName 23s ease infinite;
+    -o-animation: AnimationName 23s ease infinite;
+    animation: AnimationName 23s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes textAnimation {
+    0% {
+        color: black;
+    }
+
+    100% {
+        color: #007fff;
+    }
+}
